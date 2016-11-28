@@ -7,17 +7,6 @@
 <link rel='stylesheet' type='text/css' href='<?php echo theme_url('style.css'); ?>'>
 <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
 
-<!-- jQuery -->
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
-<script>
-$(document).ready(function(){
-	$('footer img').hover(function(){
-		$(this).stop().animate({opacity: 1}, 300);
-	}, function(){
-		$(this).stop().animate({opacity: 0.5}, 300);
-	});
-});
-</script>
 </head>
 
 <body>

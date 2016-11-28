@@ -165,4 +165,5 @@ article.compact { padding-bottom: 50px; }
 
 .comment { border-top: 1px solid #e1e1e1; padding-top: 30px; }
 footer { padding: 20px; text-shadow: 1px 1px 0px #333333; }
-footer img { float: right; opacity: 0.5; }
+footer img { float: right; opacity: 0.5; -webkit-transition: ease-in-out 0.1s; -moz-transition: ease-in-out 0.1s; -ms-transition: ease-in-out 0.1s; transition: ease-in-out 0.1s; }
+footer img:hover { opacity: 1; }
